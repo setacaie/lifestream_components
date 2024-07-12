@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "lifestream_components:gil_gold"
+    }
+  },
+  "result": {
+    "item": "lifestream_components:gil_diamond",
+    "count": 1
+  }
+}

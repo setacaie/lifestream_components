@@ -12,7 +12,8 @@
           "src/main/java/tech/setacaie/lifestreamcomponents/item/GilCopperItem.java",
           "src/main/resources/assets/lifestream_components/models/item/gil_copper.json"
         ]
-      }
+      },
+      "path": "~/Coins"
     },
     {
       "name": "GilSilver",
@@ -26,7 +27,8 @@
           "src/main/resources/assets/lifestream_components/models/item/gil_silver.json",
           "src/main/java/tech/setacaie/lifestreamcomponents/item/GilSilverItem.java"
         ]
-      }
+      },
+      "path": "~/Coins"
     },
     {
       "name": "GilGold",
@@ -40,7 +42,8 @@
           "src/main/java/tech/setacaie/lifestreamcomponents/item/GilGoldItem.java",
           "src/main/resources/assets/lifestream_components/models/item/gil_gold.json"
         ]
-      }
+      },
+      "path": "~/Coins"
     },
     {
       "name": "GilDiamond",
@@ -54,7 +57,8 @@
           "src/main/java/tech/setacaie/lifestreamcomponents/item/GilDiamondItem.java",
           "src/main/resources/assets/lifestream_components/models/item/gil_diamond.json"
         ]
-      }
+      },
+      "path": "~/Coins"
     },
     {
       "name": "GilNetherite",
@@ -68,7 +72,8 @@
           "src/main/resources/assets/lifestream_components/models/item/gil_netherite.json",
           "src/main/java/tech/setacaie/lifestreamcomponents/item/GilNetheriteItem.java"
         ]
-      }
+      },
+      "path": "~/Coins"
     },
     {
       "name": "Lifestream",
@@ -94,6 +99,118 @@
           "src/main/java/tech/setacaie/lifestreamcomponents/item/ShinraIDItem.java"
         ]
       }
+    },
+    {
+      "name": "CopperToSilver",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_to_silver",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lifestream_components/recipes/copper_to_silver.json"
+        ]
+      },
+      "path": "~/CoinConvertUpRecipes"
+    },
+    {
+      "name": "SilverToGold",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_to_gold",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lifestream_components/recipes/silver_to_gold.json"
+        ]
+      },
+      "path": "~/CoinConvertUpRecipes"
+    },
+    {
+      "name": "GoldToDiamond",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_to_diamond",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lifestream_components/recipes/gold_to_diamond.json"
+        ]
+      },
+      "path": "~/CoinConvertUpRecipes"
+    },
+    {
+      "name": "DiamondToNetherite",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_to_netherite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lifestream_components/recipes/diamond_to_netherite.json"
+        ]
+      },
+      "path": "~/CoinConvertUpRecipes"
+    },
+    {
+      "name": "NetheriteToDiamond",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_to_diamond",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lifestream_components/recipes/netherite_to_diamond.json"
+        ]
+      },
+      "path": "~/CoinConvertDownRecipes"
+    },
+    {
+      "name": "DiamondToGold",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_to_gold",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lifestream_components/recipes/diamond_to_gold.json"
+        ]
+      },
+      "path": "~/CoinConvertDownRecipes"
+    },
+    {
+      "name": "GoldToSilver",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_to_silver",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lifestream_components/recipes/gold_to_silver.json"
+        ]
+      },
+      "path": "~/CoinConvertDownRecipes"
+    },
+    {
+      "name": "SilverToCopper",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_to_copper",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lifestream_components/recipes/silver_to_copper.json"
+        ]
+      },
+      "path": "~/CoinConvertDownRecipes"
     }
   ],
   "variable_elements": [],
@@ -112,17 +229,31 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Coins",
+        "children": []
+      },
+      {
+        "name": "CoinConvertUpRecipes",
+        "children": []
+      },
+      {
+        "name": "CoinConvertDownRecipes",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "lifestream_components",
     "modName": "Lifestream Components",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A collection of components for use in the Lifestream modpack.",
     "author": "setacaie",
     "websiteURL": "https://setacaie.tech",
     "license": "MIT License",
     "serverSideOnly": false,
+    "modPicture": "lifestream_icon_64",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],

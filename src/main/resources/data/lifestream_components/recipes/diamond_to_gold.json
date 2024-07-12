@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "lifestream_components:gil_diamond"
+    }
+  ],
+  "result": {
+    "item": "lifestream_components:gil_gold",
+    "count": 9
+  }
+}

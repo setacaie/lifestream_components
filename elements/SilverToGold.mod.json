@@ -1,0 +1,48 @@
+{
+  "_fv": 60,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:GilSilver"
+      },
+      {
+        "value": "CUSTOM:GilSilver"
+      },
+      {
+        "value": "CUSTOM:GilSilver"
+      },
+      {
+        "value": "CUSTOM:GilSilver"
+      },
+      {
+        "value": "CUSTOM:GilSilver"
+      },
+      {
+        "value": "CUSTOM:GilSilver"
+      },
+      {
+        "value": "CUSTOM:GilSilver"
+      },
+      {
+        "value": "CUSTOM:GilSilver"
+      },
+      {
+        "value": "CUSTOM:GilSilver"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:GilGold"
+    },
+    "name": "silver_to_gold",
+    "namespace": "mod"
+  }
+}

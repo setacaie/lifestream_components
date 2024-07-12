@@ -2,7 +2,9 @@
 /*
  *    MCreator note: This file will be REGENERATED on each build.
  */
-package gay.firelily.lifestreamcomponents.init;
+package tech.setacaie.lifestreamcomponents.init;
+
+import tech.setacaie.lifestreamcomponents.LifestreamComponentsMod;
 
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
@@ -11,8 +13,6 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.registries.Registries;
-
-import gay.firelily.lifestreamcomponents.LifestreamComponentsMod;
 
 public class LifestreamComponentsModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, LifestreamComponentsMod.MODID);

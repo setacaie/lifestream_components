@@ -2,21 +2,21 @@
 /*
  *    MCreator note: This file will be REGENERATED on each build.
  */
-package gay.firelily.lifestreamcomponents.init;
+package tech.setacaie.lifestreamcomponents.init;
+
+import tech.setacaie.lifestreamcomponents.item.ShinraIDItem;
+import tech.setacaie.lifestreamcomponents.item.GilSilverItem;
+import tech.setacaie.lifestreamcomponents.item.GilNetheriteItem;
+import tech.setacaie.lifestreamcomponents.item.GilGoldItem;
+import tech.setacaie.lifestreamcomponents.item.GilDiamondItem;
+import tech.setacaie.lifestreamcomponents.item.GilCopperItem;
+import tech.setacaie.lifestreamcomponents.LifestreamComponentsMod;
 
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.item.Item;
-
-import gay.firelily.lifestreamcomponents.item.ShinraIDItem;
-import gay.firelily.lifestreamcomponents.item.GilSilverItem;
-import gay.firelily.lifestreamcomponents.item.GilNetheriteItem;
-import gay.firelily.lifestreamcomponents.item.GilGoldItem;
-import gay.firelily.lifestreamcomponents.item.GilDiamondItem;
-import gay.firelily.lifestreamcomponents.item.GilCopperItem;
-import gay.firelily.lifestreamcomponents.LifestreamComponentsMod;
 
 public class LifestreamComponentsModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, LifestreamComponentsMod.MODID);

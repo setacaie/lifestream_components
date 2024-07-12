@@ -1,4 +1,7 @@
-package gay.firelily.lifestreamcomponents;
+package tech.setacaie.lifestreamcomponents;
+
+import tech.setacaie.lifestreamcomponents.init.LifestreamComponentsModTabs;
+import tech.setacaie.lifestreamcomponents.init.LifestreamComponentsModItems;
 
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
@@ -25,9 +28,6 @@ import java.util.List;
 import java.util.Collection;
 import java.util.ArrayList;
 import java.util.AbstractMap;
-
-import gay.firelily.lifestreamcomponents.init.LifestreamComponentsModTabs;
-import gay.firelily.lifestreamcomponents.init.LifestreamComponentsModItems;
 
 @Mod("lifestream_components")
 public class LifestreamComponentsMod {

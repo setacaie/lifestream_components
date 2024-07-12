@@ -1,5 +1,5 @@
 
-package gay.firelily.lifestreamcomponents.item;
+package tech.setacaie.lifestreamcomponents.item;
 
 import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.Item;

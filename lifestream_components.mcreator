@@ -9,8 +9,8 @@
       "registry_name": "gil_copper",
       "metadata": {
         "files": [
-          "src/main/resources/assets/lifestream_components/models/item/gil_copper.json",
-          "src/main/java/gay/firelily/lifestreamcomponents/item/GilCopperItem.java"
+          "src/main/java/tech/setacaie/lifestreamcomponents/item/GilCopperItem.java",
+          "src/main/resources/assets/lifestream_components/models/item/gil_copper.json"
         ]
       }
     },
@@ -23,8 +23,8 @@
       "registry_name": "gil_silver",
       "metadata": {
         "files": [
-          "src/main/java/gay/firelily/lifestreamcomponents/item/GilSilverItem.java",
-          "src/main/resources/assets/lifestream_components/models/item/gil_silver.json"
+          "src/main/resources/assets/lifestream_components/models/item/gil_silver.json",
+          "src/main/java/tech/setacaie/lifestreamcomponents/item/GilSilverItem.java"
         ]
       }
     },
@@ -37,7 +37,7 @@
       "registry_name": "gil_gold",
       "metadata": {
         "files": [
-          "src/main/java/gay/firelily/lifestreamcomponents/item/GilGoldItem.java",
+          "src/main/java/tech/setacaie/lifestreamcomponents/item/GilGoldItem.java",
           "src/main/resources/assets/lifestream_components/models/item/gil_gold.json"
         ]
       }
@@ -51,7 +51,7 @@
       "registry_name": "gil_diamond",
       "metadata": {
         "files": [
-          "src/main/java/gay/firelily/lifestreamcomponents/item/GilDiamondItem.java",
+          "src/main/java/tech/setacaie/lifestreamcomponents/item/GilDiamondItem.java",
           "src/main/resources/assets/lifestream_components/models/item/gil_diamond.json"
         ]
       }
@@ -65,8 +65,8 @@
       "registry_name": "gil_netherite",
       "metadata": {
         "files": [
-          "src/main/java/gay/firelily/lifestreamcomponents/item/GilNetheriteItem.java",
-          "src/main/resources/assets/lifestream_components/models/item/gil_netherite.json"
+          "src/main/resources/assets/lifestream_components/models/item/gil_netherite.json",
+          "src/main/java/tech/setacaie/lifestreamcomponents/item/GilNetheriteItem.java"
         ]
       }
     },
@@ -91,7 +91,7 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/lifestream_components/models/item/shinra_id.json",
-          "src/main/java/gay/firelily/lifestreamcomponents/item/ShinraIDItem.java"
+          "src/main/java/tech/setacaie/lifestreamcomponents/item/ShinraIDItem.java"
         ]
       }
     }
@@ -119,8 +119,8 @@
     "modName": "Lifestream Components",
     "version": "1.0.0",
     "description": "A collection of components for use in the Lifestream modpack.",
-    "author": "alilyinred",
-    "websiteURL": "https://mcreator.net",
+    "author": "setacaie",
+    "websiteURL": "https://setacaie.tech",
     "license": "MIT License",
     "serverSideOnly": false,
     "requiredMods": [],
@@ -130,8 +130,8 @@
       "jei"
     ],
     "currentGenerator": "forge-1.20.1",
-    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
-    "modElementsPackage": "gay.firelily.lifestreamcomponents"
+    "credits": "Made with MCreator",
+    "modElementsPackage": "tech.setacaie.lifestreamcomponents"
   },
   "mcreatorVersion": 202400118518
 }

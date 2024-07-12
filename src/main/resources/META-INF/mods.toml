@@ -6,9 +6,9 @@ license="MIT License"
 modId="lifestream_components"
 version="1.0.0"
 displayName="Lifestream Components"
-displayURL="https://mcreator.net"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
-authors="alilyinred"
+displayURL="https://setacaie.tech"
+credits="Made with MCreator"
+authors="setacaie"
 description="A collection of components for use in the Lifestream modpack."
 
 # Start of user code block mod configuration

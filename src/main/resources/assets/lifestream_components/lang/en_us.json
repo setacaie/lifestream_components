@@ -1,0 +1,9 @@
+{
+  "item.lifestream_components.shinra_id": "Shinra Contractor ID",
+  "item.lifestream_components.gil_diamond": "Diamond Gil",
+  "item.lifestream_components.gil_gold": "Gold Gil",
+  "item_group.lifestream_components.lifestream": "Lifestream",
+  "item.lifestream_components.gil_silver": "Silver Gil",
+  "item.lifestream_components.gil_netherite": "Netherite Gil",
+  "item.lifestream_components.gil_copper": "Copper Gil"
+}

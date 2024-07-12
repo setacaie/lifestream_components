@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "lifestream_components:item/gil_netherite"
+  }
+}

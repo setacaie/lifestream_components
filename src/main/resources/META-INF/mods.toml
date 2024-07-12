@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT License"
+
+[[mods]]
+modId="lifestream_components"
+version="1.0.0"
+displayName="Lifestream Components"
+displayURL="https://mcreator.net"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+authors="alilyinred"
+description="A collection of components for use in the Lifestream modpack."
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.lifestream_components]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="NONE"
+    side="BOTH"
+
+
+[[dependencies.lifestream_components]]
+    modId="jei"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+

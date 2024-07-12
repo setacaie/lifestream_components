@@ -1,0 +1,137 @@
+{
+  "mod_elements": [
+    {
+      "name": "GilCopper",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gil_copper",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lifestream_components/models/item/gil_copper.json",
+          "src/main/java/gay/firelily/lifestreamcomponents/item/GilCopperItem.java"
+        ]
+      }
+    },
+    {
+      "name": "GilSilver",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gil_silver",
+      "metadata": {
+        "files": [
+          "src/main/java/gay/firelily/lifestreamcomponents/item/GilSilverItem.java",
+          "src/main/resources/assets/lifestream_components/models/item/gil_silver.json"
+        ]
+      }
+    },
+    {
+      "name": "GilGold",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gil_gold",
+      "metadata": {
+        "files": [
+          "src/main/java/gay/firelily/lifestreamcomponents/item/GilGoldItem.java",
+          "src/main/resources/assets/lifestream_components/models/item/gil_gold.json"
+        ]
+      }
+    },
+    {
+      "name": "GilDiamond",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gil_diamond",
+      "metadata": {
+        "files": [
+          "src/main/java/gay/firelily/lifestreamcomponents/item/GilDiamondItem.java",
+          "src/main/resources/assets/lifestream_components/models/item/gil_diamond.json"
+        ]
+      }
+    },
+    {
+      "name": "GilNetherite",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gil_netherite",
+      "metadata": {
+        "files": [
+          "src/main/java/gay/firelily/lifestreamcomponents/item/GilNetheriteItem.java",
+          "src/main/resources/assets/lifestream_components/models/item/gil_netherite.json"
+        ]
+      }
+    },
+    {
+      "name": "Lifestream",
+      "type": "tab",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lifestream",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "ShinraID",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shinra_id",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lifestream_components/models/item/shinra_id.json",
+          "src/main/java/gay/firelily/lifestreamcomponents/item/ShinraIDItem.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "language_map": {
+    "en_us": {
+      "item.lifestream_components.shinra_id": "Shinra Contractor ID",
+      "item.lifestream_components.gil_diamond": "Diamond Gil",
+      "item.lifestream_components.gil_gold": "Gold Gil",
+      "item_group.lifestream_components.lifestream": "Lifestream",
+      "item.lifestream_components.gil_silver": "Silver Gil",
+      "item.lifestream_components.gil_netherite": "Netherite Gil",
+      "item.lifestream_components.gil_copper": "Copper Gil"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "lifestream_components",
+    "modName": "Lifestream Components",
+    "version": "1.0.0",
+    "description": "A collection of components for use in the Lifestream modpack.",
+    "author": "alilyinred",
+    "websiteURL": "https://mcreator.net",
+    "license": "MIT License",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "jei"
+    ],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "gay.firelily.lifestreamcomponents"
+  },
+  "mcreatorVersion": 202400118518
+}

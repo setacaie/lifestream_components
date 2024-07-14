@@ -4,7 +4,7 @@ license="Creative Commons Attribution-NonCommercial 3.0"
 
 [[mods]]
 modId="lifestream_components"
-version="1.0.2"
+version="1.0.3"
 displayName="Lifestream Components"
 displayURL="https://setacaie.tech"
 logoFile="logo.png"

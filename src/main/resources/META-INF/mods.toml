@@ -1,10 +1,10 @@
 modLoader="javafml"
 loaderVersion="[47,)"
-license="MIT License"
+license="Creative Commons Attribution-NonCommercial 3.0"
 
 [[mods]]
 modId="lifestream_components"
-version="1.0.1"
+version="1.0.2"
 displayName="Lifestream Components"
 displayURL="https://setacaie.tech"
 logoFile="logo.png"
